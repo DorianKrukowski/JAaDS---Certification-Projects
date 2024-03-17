@@ -2,4 +2,7 @@
 
 ## freeCodeCamp JavaScript Algorithms and Data Structures (Beta)
 
-In my free time I'll try to style these projects. ¯\_(ツ)_/¯
+### This is My way of doing the projects if there is a better way of doing them I will take any kind of help!
+
+
+In my free time I'll try to style these projects. ¯\\_(ツ)_/¯
