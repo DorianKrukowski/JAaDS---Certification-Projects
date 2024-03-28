@@ -13,11 +13,9 @@ function convert() {
     const te = ["", "X", "XX", "XXX", "XL", "L", "LX", "LXX", "LXXX", "XC"];
     const o = ["", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX"];
 
-    const roman =
-      t[Math.floor(num / 1000)] +
-      h[Math.floor((num % 1000) / 100)] +
-      te[Math.floor((num % 100) / 10)] +
-      o[num % 10];
+    const roman = `${t[Math.floor(num / 1000)]}${
+      h[Math.floor((num % 1000) / 100)]
+    }${te[Math.floor((num % 100) / 10)]}${o[num % 10]}`;
 
     output.innerHTML = roman;
   }
