@@ -17,6 +17,7 @@ function convert() {
       h[Math.floor((num % 1000) / 100)]
     }${te[Math.floor((num % 100) / 10)]}${o[num % 10]}`;
 
+    output.style.visibility = "visible";
     output.innerHTML = roman;
   }
 }
